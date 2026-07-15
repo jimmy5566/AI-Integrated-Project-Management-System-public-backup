@@ -2,6 +2,14 @@
 
 A full-stack engineering project management platform built with **FastAPI**, **React + TypeScript**, and **PostgreSQL**, running fully containerised with Docker Compose.
 
+## Project Status
+
+This repository is being transitioned into a personal redevelopment baseline.
+
+- the active remote repository is the personal GitHub repository
+- the codebase still contains inherited template and team-built modules
+- ongoing work is focused on repository cleanup, ownership clarification, and progressive module rewrites
+
 ---
 
 ## Table of Contents
@@ -57,7 +65,7 @@ docker compose version  # Docker Compose version v2.24 or higher
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Adelaide-University-ICT-Capstone/AI-Integrated-Project-Management-System.git
+git clone https://github.com/jimmy5566/AI-Integrated-Project-Management-System-public-backup.git
 cd AI-Integrated-Project-Management-System
 ```
 
@@ -172,4 +180,4 @@ The backend auto-generates interactive docs at runtime — no static file needed
 - **Swagger UI**: http://localhost:8000/docs — try endpoints directly in the browser
 - **OpenAPI schema**: http://localhost:8000/openapi.json
 
-For a static endpoint reference see [fullstack/API_DOCUMENTATION.md](fullstack/API_DOCUMENTATION.md).
+For a static endpoint reference see [api_documentation.md](api_documentation.md).
