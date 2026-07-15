@@ -1,0 +1,7 @@
+﻿
+node_modules/
+fullstack/.env
+fullstack/frontend/.env
+.DS_Store
+Thumbs.db
+*.log
